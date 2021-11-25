@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  test-service:
+    build:
+      context: ./files
+      dockerfile: Dockerfile
+    restart: always
+    tty: true
+    init: true
