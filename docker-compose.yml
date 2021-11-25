@@ -4,6 +4,6 @@ services:
     build:
       context: ./files
       dockerfile: Dockerfile
-    restart: always
+    # restart: always
     tty: true
     init: true

@@ -1,0 +1,17 @@
+{
+  "name": "ubuntu-image",
+  "version": "1.0.0",
+  "description": "docker-compose up",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker-compose up",
+    "down": "docker-compose down",
+    "kill image": "docker rmi ubuntu-image_test-service",
+    "image ls": "docker images",
+    "container ls": "docker ps -a",
+    "into container": "docker exec -it ubuntu-image_test-service_1 bash"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

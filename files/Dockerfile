@@ -1,8 +1,8 @@
-FROM centos:centos7
+FROM ubuntu:20.04
 
 # install tools
-RUN yum update -y 
-RUN yum install -y sudo vim wget
+# RUN yum update -y 
+# RUN yum install -y sudo vim wget
 
 USER root
 COPY ./entrypoint.sh /
